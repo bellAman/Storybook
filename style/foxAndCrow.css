@@ -1,0 +1,46 @@
+.frame1{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title1{
+  padding: 10px;
+}
+.fc1{
+  width: 80%;
+  height: 80vh;
+  background-color: lightblue;
+  display: block;
+}
+.crow1{
+  height: 100px;
+  width: 100px;
+}
+.fox1{
+  height: 100px;
+  width: 120px;
+}
+.tree1{
+  height: 120px;
+  width: 100px;
+}
+.grass1{
+  height: 40px;
+  width: 80%;
+  position: absolute;
+  bottom: 10vh;
+  left: 10vw;
+}
+.bush1{
+  height: 100px;
+  width: 100px;
+}
+.scbush1{
+  height: 40px;
+  width: 60px;
+}
