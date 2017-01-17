@@ -1,0 +1,38 @@
+.frame2{
+  height: 100vh;
+  width: 100%;
+  background: #1C0B00;
+  display: flex;
+  flex-direction: column;
+  color: white
+}
+.pageContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*.HALUpage{
+  border: 2px solid black;
+  height: 30vh;
+  width: 20vw;
+  margin: 5vw;
+}*/
+.HALUtext{
+  display: none;
+}
+.storyBox{
+  background: white;
+  height: 80vh;
+  width: 85vw;
+  position: absolute;
+  top: 15vh;
+  display: none;
+}
+.HALUimg1{
+  height: 30vh;
+  width: 20vw;
+}
+.HALUimg2{
+  height: 30vh;
+  width: 20vw;
+}

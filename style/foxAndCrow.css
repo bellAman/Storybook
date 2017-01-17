@@ -8,39 +8,92 @@
   justify-content: center;
   align-items: center;
 }
+.homeButton{
+  position: absolute;
+  top:3vh;
+  right:3vw;
+}
 .title1{
   padding: 10px;
+}
+.author1{
+  margin-bottom: 10px;
+}
+.fcStory{
+  margin: 10px;
+  width: 80%;
 }
 .fc1{
   width: 80%;
   height: 80vh;
-  background-color: lightblue;
+  background: linear-gradient(to bottom, #0099ff, #b1edec);
+  position: relative;
   display: block;
 }
 .crow1{
-  height: 100px;
-  width: 100px;
+  height: 12vh;
+  width: 12vw;
+  position: absolute;
+  top: 5vh;
+  z-index: 3;
 }
 .fox1{
-  height: 100px;
-  width: 120px;
+  height: 20vh;
+  width: 20vw;
+  position: absolute;
+  top: 60vh;
 }
 .tree1{
-  height: 120px;
-  width: 100px;
+  height: 80vh;
+  width: 30vw;
+  position: absolute;
+  bottom: 0vh;
+  left: 60vw;
 }
 .grass1{
-  height: 40px;
-  width: 80%;
+  height: 10vh;
+  width: 100%;
   position: absolute;
-  bottom: 10vh;
-  left: 10vw;
+  bottom: 0vh;
+  left: 0vw;
 }
 .bush1{
-  height: 100px;
-  width: 100px;
+  height: 25vh;
+  width: 25vw;
+  position: absolute;
+  bottom: 0vh;
+  left: -5vw;
 }
-.scbush1{
-  height: 40px;
-  width: 60px;
+.fc1:hover .crow1 {
+  animation-name: crowFly;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.fc1:hover .fox1{
+  animation-name: foxWalk;
+  animation-duration: 5s;
+  animation-timing-function: cubic-bezier(.8, 0, .58, 1);;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+@keyframes crowFly {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  100% {
+    left: 67vw;
+    top: 7vh;
+  }
+}
+@keyframes foxWalk{
+  0% {
+    left: 0;
+    top:53vh;
+  }
+  100%{
+    left:35vw;
+    top:55vh;
+  }
 }

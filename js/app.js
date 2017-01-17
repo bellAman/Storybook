@@ -12,4 +12,9 @@ angular.module('StorybookApp',['ui.router'])
     templateUrl:"./templates/foxAndCrow.html",
     // controller:"teacherHomeCTRL"
   })
+  .state("highAndLiftedUp",{
+    url: "/highAndLiftedUp",
+    templateUrl:"./templates/highAndLiftedUp.html",
+    // controller:"teacherHomeCTRL"
+  })
 })
