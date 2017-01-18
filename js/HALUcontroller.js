@@ -6,6 +6,18 @@ angular.module("StorybookApp").controller("slideCTRL", function($scope){
   $scope.revealer2 = function(){
     $scope.hide2 = !$scope.hide2
   }
+  $scope.revealer3 = function(){
+    $scope.hide3 = !$scope.hide3
+  }
+  $scope.revealer4 = function(){
+    $scope.hide4 = !$scope.hide4
+  }
+  $scope.revealer5 = function(){
+    $scope.hide5 = !$scope.hide5
+  }
+  $scope.revealer6 = function(){
+    $scope.hide6 = !$scope.hide6
+  }
   // var slideIndex = 1;
   // showSlides(slideIndex);
 
