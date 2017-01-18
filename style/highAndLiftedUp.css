@@ -1,5 +1,5 @@
 .frame2{
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background: #1C0B00;
   display: flex;
@@ -7,6 +7,9 @@
   align-items: center;
   justify-content: center;
   color: white
+}
+.title2{
+  margin-top: 5vh;
 }
 .pageContainer{
   display: flex;

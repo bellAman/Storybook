@@ -1,8 +1,7 @@
-@import "https://fonts.googleapis.com/css?family=Padauk";
+@import "https://fonts.googleapis.com/css?family=Padauk|Kaushan+Script";
 h1{
   font-family:'Padauk', sans-serif;
   font-size: 2rem;
-
 }
 h3{
   font-family:'Padauk', sans-serif;
@@ -11,4 +10,18 @@ h3{
 p{
   font-family:'Padauk', sans-serif;
   font-size: 1rem;
+}
+.mainBanner{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3rem;
+  position: relative;
+  top: -20vh;
+  color: #932e81;
+}
+.storyTitle{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1rem;
+  margin: 2vh;
+  position: relative;
+  top: -10vh;
 }
