@@ -17,17 +17,55 @@
   width: 20vw;
   margin: 5vw;
 }*/
-.HALUtext{
-  display: none;
+.HALUtext1 {
+  position: relative;
+  height: 70vh;
+  width: 70vw;
+  z-index: 3;
 }
-.storyBox{
-  background: white;
+.storyBox1{
+  color: black;
+  transition: all linear 0.5s;
+  background-color: white;
+  border: 3px solid #f4743b;
   height: 80vh;
   width: 85vw;
   position: absolute;
   top: 15vh;
-  display: none;
+  left: 5vw;
 }
+.ng-hide {
+  height: 0;
+  top:-200px;
+  left: 200px;
+}
+.slideshow-container {
+  max-width: 85vw;
+  height: 75vh;
+  position: relative;
+  margin: auto;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slideFooter{
+  position: relative;
+  top: -3vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.close{
+  height: 25px;
+  width: 25px;
+}
+.HALUpic1{
+  max-height: 70vh;
+  max-width: 80vw;
+}
+
+
 .HALUimg1{
   height: 30vh;
   width: 20vw;

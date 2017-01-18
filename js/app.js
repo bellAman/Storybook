@@ -1,4 +1,4 @@
-angular.module('StorybookApp',['ui.router'])
+angular.module('StorybookApp',['ui.router', 'ngAnimate'])
 .config(function($stateProvider, $urlRouterProvider){
   $urlRouterProvider.otherwise("/");
   $stateProvider
@@ -15,6 +15,6 @@ angular.module('StorybookApp',['ui.router'])
   .state("highAndLiftedUp",{
     url: "/highAndLiftedUp",
     templateUrl:"./templates/highAndLiftedUp.html",
-    // controller:"teacherHomeCTRL"
+    controller:"slideCTRL"
   })
 })

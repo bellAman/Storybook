@@ -1,34 +1,50 @@
-{{test}}
 <section class="frame2">
   <h1 class="title2">High and Lifted Up</h1>
   <h3 class="author2">By: Mike Krath</h3>
   <img class="homeButton" ui-sref="home" src="images/house-32.png" alt="" />
   <div class="pageContainer">
-      <img class="HALUimg1" src="images/boy.jpg" alt="" />
-      <img class="HALUimg2" src="images/Nature___Seasons___Autumn_the_autumn_leaves_in_the_wind_HD_046235_.jpg" alt="" />
+      <img class="HALUimg1" src="images/boy.jpg" alt=""  ng-click="$watch(revealer1(), pageAssignment('mySlides'))"/>
+      <img class="HALUimg2" src="images/Nature___Seasons___Autumn_the_autumn_leaves_in_the_wind_HD_046235_.jpg" alt="" ng-click="$watch(revealer2(), pageAssignment('mySlides2'))" />
       <img class="HALUimg3" src="" alt="" />
       <img class="HALUimg4" src="" alt="" />
       <img class="HALUimg5" src="" alt="" />
       <img class="HALUimg6" src="" alt="" />
   </div>
-  <div class="storyBox1">
-    <div class="HALUtext">
-      <p>
-        It was a windy day.
-        The mailman barely made it to the front door. When the door opened, Mrs. Pennington said, "hello", but, before she had a real chance to say "thank you", the mail blew out of the mailman's hands, into the house and the front door slammed in his face. Mrs. Pennington ran to pick up the mail.
-        "Oh my," she said.
-        Tommy was watching the shutters open and then shut, open and then shut.
-        "Mom," he said, "may I go outside?"
-        "Be careful," she said. "It's so windy today."
-        Tommy crawled down from the window-seat and ran to the door. He opened it with a bang. The wind blew fiercely and snatched the newly recovered mail from Mrs. Pennington's hands and blew it even further into the house.
-        "Oh my," she said again. Tommy ran outside and the door slammed shut.
-      </p>
+  <div class="storyBox1" ng-show="hide1">
+    <div class="slideshow-container">
+      <div class="mySlides">
+        <img class="HALUpic1" src="images/boy.jpg" />
+      </div>
+      <div class="mySlides">
+        <p>
+          It was a windy day.
+          The mailman barely made it to the front door. When the door opened, Mrs. Pennington said, "hello", but, before she had a real chance to say "thank you", the mail blew out of the mailman's hands, into the house and the front door slammed in his face. Mrs. Pennington ran to pick up the mail.
+          "Oh my," she said.
+          Tommy was watching the shutters open and then shut, open and then shut.
+          "Mom," he said, "may I go outside?"
+          "Be careful," she said. "It's so windy today."
+          Tommy crawled down from the window-seat and ran to the door. He opened it with a bang. The wind blew fiercely and snatched the newly recovered mail from Mrs. Pennington's hands and blew it even further into the house.
+          "Oh my," she said again. Tommy ran outside and the door slammed shut.
+        </p>
+      </div>
+    </div>
+    <div class="slideFooter">
+      <a class="next" ng-click="plusSlides(1)">
+        <img src="images/arrow-32.png" alt="" />
+      </a>
+      <img class="close" src="images/close-window-32.png" alt="" ng-click="revealer1()"/>
     </div>
   </div>
-  <div class="storyBox">
-      <div class="HALUtext">
+<!-- page 2 -->
+  <div class="storyBox1" ng-show="hide2" >
+    <div class="slideshow-container">
+      <div class="mySlides2">
+        <img class="HALUpic1" src="images/Nature___Seasons___Autumn_the_autumn_leaves_in_the_wind_HD_046235_.jpg" />
+      </div>
+      <div class="mySlides2">
+
         <p>
-           Outside, yellow, gold, and red leaves were leaping from swaying trees, landing on the roof, jumping off the roof, and then chasing one another down the street in tiny whirlwinds of merriment.
+          Outside, yellow, gold, and red leaves were leaping from swaying trees, landing on the roof, jumping off the roof, and then chasing one another down the street in tiny whirlwinds of merriment.
           Tommy watched in fascination.
           "If I was a leaf, I would fly clear across the world," Tommy thought and then ran out into the yard among the swirl of colors.
           Mrs. Pennington came to the front porch.
@@ -41,8 +57,24 @@
         </p>
       </div>
     </div>
-    <div class="storyBox">
+    <div class="slideFooter">
+      <a class="next" ng-click="plusSlides(1)">
+        <img src="images/arrow-32.png" alt="" />
+      </a>
+      <img class="close" src="images/close-window-32.png" alt="" ng-click="revealer2()"/>
+    </div>
+  </div>
+    <!-- <div class="HALUtext1">
 
+    </div>
+  </div>
+  <div class="storyBox" >
+
+      <div class="HALUtext">
+
+      </div>
+    </div>
+    <div class="storyBox" >
       <div class="HALUtext">
         <p>
           The maple leaf blew in front of him. It was bright red with well-defined veins. The sun-light shone through it giving it a brilliance never before seen by a little boy's eyes.
@@ -56,8 +88,7 @@
         </p>
       </div>
     </div>
-    <div class="storyBox">
-
+    <div class="storyBox" >
       <div class="HALUtext">
         <p>
           "If you are blown in that direction, you will fly high into the air and see things that no leaf has seen before."
@@ -67,8 +98,7 @@
         </p>
       </div>
     </div>
-    <div class="storyBox">
-
+    <div class="storyBox" >
       <div class="HALUtext">
         <p>
           The winds shifted and Tommy and the leaf were blown in the direction of the city dump.
@@ -80,8 +110,7 @@
         </p>
       </div>
     </div>
-    <div class="storyBox">
-
+    <div class="storyBox" >
       <div class="HALUtext">
         <p>
           Tommy saw the fence that surrounded the city dump. He was happy to be with his friend. They would have fun in the dump.
@@ -94,5 +123,5 @@
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
 </section>
