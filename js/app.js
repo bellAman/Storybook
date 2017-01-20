@@ -17,4 +17,8 @@ angular.module('StorybookApp',['ui.router', 'ngAnimate'])
     templateUrl:"./templates/highAndLiftedUp.html",
     controller:"slideCTRL"
   })
+  .state("jaberwocky",{
+    url: "/jaberwocky",
+    templateUrl:"templates/jaberwocky.html"
+  })
 })
