@@ -1,0 +1,27 @@
+.peterRabbitPage{
+  width: 100%;
+  min-height: 100vh;
+  background: lightblue;
+}
+.pRTextContainer {
+  margin: 10vh;
+}
+.peterRabbitText {
+ position: relative;
+ z-index: 3;
+}
+.pR1 {
+  color: blue;
+}
+ .pRImg1 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: -10vh;
+  left: 60vw;
+  z-index: -1;
+ }
+ .pR1:hover + .pRImg1{
+    display: block;
+ }
