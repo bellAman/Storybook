@@ -1,27 +1,203 @@
 .peterRabbitPage{
   width: 100%;
   min-height: 100vh;
-  background: lightblue;
+  background: linear-gradient(to bottom right, #AEE5D8, #F0F7F4, #E0B0D5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #36413E;
+}
+.pRTitle{
+  margin-top: 5vh;
 }
 .pRTextContainer {
   margin: 10vh;
 }
 .peterRabbitText {
  position: relative;
- z-index: 3;
 }
-.pR1 {
-  color: blue;
+span {
+  color: #CB48B7;
 }
  .pRImg1 {
   display: none;
   height: 200px;
   width: 200px;
+  border-radius: 25%;
   position: absolute;
   top: -10vh;
   left: 60vw;
-  z-index: -1;
+  z-index: 10;
  }
  .pR1:hover + .pRImg1{
+    display: block;
+ }
+ .pRImg2 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -25vh;
+  left: 70vw;
+  z-index: 10;
+ }
+ .pR2:hover + .pRImg2{
+    display: block;
+ }
+ .pRImg3 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -25vh;
+  left: 15vw;
+  z-index: 10;
+ }
+ .pR3:hover + .pRImg3{
+    display: block;
+ }
+ .pRImg4 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -25vh;
+  left: 60vw;
+  z-index: 10;
+ }
+ .pR4:hover + .pRImg4{
+    display: block;
+ }
+ .pRImg5 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -25vh;
+  left: 30vw;
+  z-index: 10;
+ }
+ .pR5:hover + .pRImg5{
+    display: block;
+ }
+ .pRImg6 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -25vh;
+  left: 20vw;
+  z-index: 10;
+ }
+ .pR6:hover + .pRImg6{
+    display: block;
+ }
+ .pRImg7 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -25vh;
+  z-index: 10;
+ }
+ .pR7:hover + .pRImg7{
+    display: block;
+ }
+ .pRImg8 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -25vh;
+  left: 15vw;
+  z-index: 10;
+ }
+ .pR8:hover + .pRImg8{
+    display: block;
+ }
+ .pRImg9 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -25vh;
+  left: 25vw;
+  z-index: 10;
+ }
+ .pR9:hover + .pRImg9{
+    display: block;
+ }
+ .pRImg10 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -20vh;
+  left: 30vw;
+  z-index: 10;
+ }
+ .pR10:hover + .pRImg10{
+    display: block;
+ }
+ .pRImg11 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -20vh;
+  left: 20vw;
+  z-index: 10;
+ }
+ .pR11:hover + .pRImg11{
+    display: block;
+ }
+ .pRImg12 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -20vh;
+  left: 70vw;
+  z-index: 10;
+ }
+ .pR12:hover + .pRImg12{
+    display: block;
+ }
+ .pRImg13 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -20vh;
+  left: 20vw;
+  z-index: 10;
+ }
+ .pR13:hover + .pRImg13{
+    display: block;
+ }
+ .pRImg14 {
+  display: none;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  position: absolute;
+  top: -20vh;
+  left: 75vw;
+  z-index: 10;
+ }
+ .pR14:hover + .pRImg14{
     display: block;
  }
