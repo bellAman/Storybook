@@ -25,4 +25,8 @@ angular.module('StorybookApp',['ui.router', 'ngAnimate'])
     url: "/peterRabbit",
     templateUrl:"templates/peterRabbit.html"
   })
+  .state("lostSoul",{
+    url: "/theImageOfTheLostSoul",
+    templateUrl:"templates/lostSoul.html"
+  })
 })

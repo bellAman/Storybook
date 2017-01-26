@@ -1,0 +1,27 @@
+.lostSoulPage {
+background: #444545;
+color: #CEABB1;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.lsTitle {
+  margin-top: 5vh;
+}
+.image{
+  height:70vh;
+  width: 95vw ;
+}
+.text{
+  height:100% ;
+  width: 90vw;
+}
+.lSPicture1{
+    background: url('http://employees.oneonta.edu/farberas/arth/Images/arth212images/gothic/Chartres/north_transept/central_portal_right_jambs.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
