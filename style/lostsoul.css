@@ -7,19 +7,58 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
-.lsTitle {
+.lSTitle {
   margin-top: 5vh;
 }
+.lSAuthor{
+  margin-bottom: 2vh;
+}
 .image{
-  height:70vh;
-  width: 95vw ;
+  height:65vh;
+  width: 90vw ;
 }
 .text{
   height:100% ;
   width: 90vw;
+  margin: 2vh;
 }
 .lSPicture1{
     background: url('http://employees.oneonta.edu/farberas/arth/Images/arth212images/gothic/Chartres/north_transept/central_portal_right_jambs.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lSPicture2{
+    background: url('http://images.travelpod.com/tw_slides/ta00/c0d/03e/lone-bird-on-the-roof-oswiecim.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lSPicture3{
+    background: url('http://mariewin.server304.com/marieblog/uploaded_images/ANDREW-776158.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lSPicture4{
+    background: url('http://www.publicdomainpictures.net/pictures/70000/nahled/bird-in-cage-1386508696FuS.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lSPicture5{
+    background: url('https://thumbs.dreamstime.com/t/city-pigeons-drink-puddles-pavement-74170500.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lSPicture6{
+    background: url('https://photos.smugmug.com/Photography/Hungry-Eyes-Photography/Brink-of-Eternity/i-KtXH8sq/4/O/crumbling%20statue.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
